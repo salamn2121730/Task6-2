@@ -1,0 +1,54 @@
+.slider {
+    max-width: 1000px;
+    height: 600px;
+    position: relative;
+    margin:30px auto;
+  }
+  .leftButton  {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 50%;
+    left: 0;
+   
+  }
+ 
+  .rightButton{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 50%;
+    right: 0;
+  }
+  .dot {
+    cursor: pointer;
+   font-size: 100px;
+    /* margin: 0 2px; */
+    
+    border-radius: 50%;
+    
+    transition: background-color 0.6s ease;
+  }
+  .dotsContainer{
+    display: flex;
+    justify-content: center;
+  }
+  .num{
+    position: absolute;
+    font-size: 75px;
+    color: white;
+    top: 43%;
+    right: 50%;
+  }
